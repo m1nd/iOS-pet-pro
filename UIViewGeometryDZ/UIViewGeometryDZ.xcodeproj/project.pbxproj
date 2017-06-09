@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAAF22581ADA54DC0090DFC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAF22571ADA54DC0090DFC5 /* main.m */; };
+		DAAF225B1ADA54DC0090DFC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAF225A1ADA54DC0090DFC5 /* AppDelegate.m */; };
+		DAAF225E1ADA54DC0090DFC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAF225D1ADA54DC0090DFC5 /* ViewController.m */; };
+		DAAF22611ADA54DC0090DFC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAAF225F1ADA54DC0090DFC5 /* Main.storyboard */; };
+		DAAF22631ADA54DC0090DFC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAAF22621ADA54DC0090DFC5 /* Images.xcassets */; };
+		DAAF22661ADA54DC0090DFC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAAF22641ADA54DC0090DFC5 /* LaunchScreen.xib */; };
+		DAAF22721ADA54DC0090DFC5 /* UIViewGeometryDZTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAF22711ADA54DC0090DFC5 /* UIViewGeometryDZTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAAF226C1ADA54DC0090DFC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAAF224A1ADA54DC0090DFC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAAF22511ADA54DC0090DFC5;
+			remoteInfo = UIViewGeometryDZ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAAF22521ADA54DC0090DFC5 /* UIViewGeometryDZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIViewGeometryDZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAAF22561ADA54DC0090DFC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAAF22571ADA54DC0090DFC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAAF22591ADA54DC0090DFC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAAF225A1ADA54DC0090DFC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAAF225C1ADA54DC0090DFC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAAF225D1ADA54DC0090DFC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAAF22601ADA54DC0090DFC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAAF22621ADA54DC0090DFC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DAAF22651ADA54DC0090DFC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DAAF226B1ADA54DC0090DFC5 /* UIViewGeometryDZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIViewGeometryDZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAAF22701ADA54DC0090DFC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAAF22711ADA54DC0090DFC5 /* UIViewGeometryDZTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewGeometryDZTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAAF224F1ADA54DC0090DFC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAAF22681ADA54DC0090DFC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAAF22491ADA54DC0090DFC5 = {
+			isa = PBXGroup;
+			children = (
+				DAAF22541ADA54DC0090DFC5 /* UIViewGeometryDZ */,
+				DAAF226E1ADA54DC0090DFC5 /* UIViewGeometryDZTests */,
+				DAAF22531ADA54DC0090DFC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAAF22531ADA54DC0090DFC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAAF22521ADA54DC0090DFC5 /* UIViewGeometryDZ.app */,
+				DAAF226B1ADA54DC0090DFC5 /* UIViewGeometryDZTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAAF22541ADA54DC0090DFC5 /* UIViewGeometryDZ */ = {
+			isa = PBXGroup;
+			children = (
+				DAAF22591ADA54DC0090DFC5 /* AppDelegate.h */,
+				DAAF225A1ADA54DC0090DFC5 /* AppDelegate.m */,
+				DAAF225C1ADA54DC0090DFC5 /* ViewController.h */,
+				DAAF225D1ADA54DC0090DFC5 /* ViewController.m */,
+				DAAF225F1ADA54DC0090DFC5 /* Main.storyboard */,
+				DAAF22621ADA54DC0090DFC5 /* Images.xcassets */,
+				DAAF22641ADA54DC0090DFC5 /* LaunchScreen.xib */,
+				DAAF22551ADA54DC0090DFC5 /* Supporting Files */,
+			);
+			path = UIViewGeometryDZ;
+			sourceTree = "<group>";
+		};
+		DAAF22551ADA54DC0090DFC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAAF22561ADA54DC0090DFC5 /* Info.plist */,
+				DAAF22571ADA54DC0090DFC5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAAF226E1ADA54DC0090DFC5 /* UIViewGeometryDZTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAAF22711ADA54DC0090DFC5 /* UIViewGeometryDZTests.m */,
+				DAAF226F1ADA54DC0090DFC5 /* Supporting Files */,
+			);
+			path = UIViewGeometryDZTests;
+			sourceTree = "<group>";
+		};
+		DAAF226F1ADA54DC0090DFC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAAF22701ADA54DC0090DFC5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAAF22511ADA54DC0090DFC5 /* UIViewGeometryDZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAAF22751ADA54DC0090DFC5 /* Build configuration list for PBXNativeTarget "UIViewGeometryDZ" */;
+			buildPhases = (
+				DAAF224E1ADA54DC0090DFC5 /* Sources */,
+				DAAF224F1ADA54DC0090DFC5 /* Frameworks */,
+				DAAF22501ADA54DC0090DFC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIViewGeometryDZ;
+			productName = UIViewGeometryDZ;
+			productReference = DAAF22521ADA54DC0090DFC5 /* UIViewGeometryDZ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAAF226A1ADA54DC0090DFC5 /* UIViewGeometryDZTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAAF22781ADA54DC0090DFC5 /* Build configuration list for PBXNativeTarget "UIViewGeometryDZTests" */;
+			buildPhases = (
+				DAAF22671ADA54DC0090DFC5 /* Sources */,
+				DAAF22681ADA54DC0090DFC5 /* Frameworks */,
+				DAAF22691ADA54DC0090DFC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAAF226D1ADA54DC0090DFC5 /* PBXTargetDependency */,
+			);
+			name = UIViewGeometryDZTests;
+			productName = UIViewGeometryDZTests;
+			productReference = DAAF226B1ADA54DC0090DFC5 /* UIViewGeometryDZTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAAF224A1ADA54DC0090DFC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = m1nd;
+				TargetAttributes = {
+					DAAF22511ADA54DC0090DFC5 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DAAF226A1ADA54DC0090DFC5 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = DAAF22511ADA54DC0090DFC5;
+					};
+				};
+			};
+			buildConfigurationList = DAAF224D1ADA54DC0090DFC5 /* Build configuration list for PBXProject "UIViewGeometryDZ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAAF22491ADA54DC0090DFC5;
+			productRefGroup = DAAF22531ADA54DC0090DFC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAAF22511ADA54DC0090DFC5 /* UIViewGeometryDZ */,
+				DAAF226A1ADA54DC0090DFC5 /* UIViewGeometryDZTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAAF22501ADA54DC0090DFC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAAF22611ADA54DC0090DFC5 /* Main.storyboard in Resources */,
+				DAAF22661ADA54DC0090DFC5 /* LaunchScreen.xib in Resources */,
+				DAAF22631ADA54DC0090DFC5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAAF22691ADA54DC0090DFC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAAF224E1ADA54DC0090DFC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAAF225E1ADA54DC0090DFC5 /* ViewController.m in Sources */,
+				DAAF225B1ADA54DC0090DFC5 /* AppDelegate.m in Sources */,
+				DAAF22581ADA54DC0090DFC5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAAF22671ADA54DC0090DFC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAAF22721ADA54DC0090DFC5 /* UIViewGeometryDZTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAAF226D1ADA54DC0090DFC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAAF22511ADA54DC0090DFC5 /* UIViewGeometryDZ */;
+			targetProxy = DAAF226C1ADA54DC0090DFC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAAF225F1ADA54DC0090DFC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAAF22601ADA54DC0090DFC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAAF22641ADA54DC0090DFC5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAAF22651ADA54DC0090DFC5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAAF22731ADA54DC0090DFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAAF22741ADA54DC0090DFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAAF22761ADA54DC0090DFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIViewGeometryDZ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAAF22771ADA54DC0090DFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIViewGeometryDZ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAAF22791ADA54DC0090DFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIViewGeometryDZTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIViewGeometryDZ.app/UIViewGeometryDZ";
+			};
+			name = Debug;
+		};
+		DAAF227A1ADA54DC0090DFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIViewGeometryDZTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIViewGeometryDZ.app/UIViewGeometryDZ";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAAF224D1ADA54DC0090DFC5 /* Build configuration list for PBXProject "UIViewGeometryDZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAAF22731ADA54DC0090DFC5 /* Debug */,
+				DAAF22741ADA54DC0090DFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAAF22751ADA54DC0090DFC5 /* Build configuration list for PBXNativeTarget "UIViewGeometryDZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAAF22761ADA54DC0090DFC5 /* Debug */,
+				DAAF22771ADA54DC0090DFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAAF22781ADA54DC0090DFC5 /* Build configuration list for PBXNativeTarget "UIViewGeometryDZTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAAF22791ADA54DC0090DFC5 /* Debug */,
+				DAAF227A1ADA54DC0090DFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAAF224A1ADA54DC0090DFC5 /* Project object */;
+}
